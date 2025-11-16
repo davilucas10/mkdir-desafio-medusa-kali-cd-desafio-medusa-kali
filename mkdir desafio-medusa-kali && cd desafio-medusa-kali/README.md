@@ -59,16 +59,21 @@ Mitigações recomendadas
 - Proteções adicionais: MFA, logs centralizados e alertas.
 - Para serviços SMB: desativar SMBv1, aplicar patches e mínimos privilégios.
 
-Entrega
-- Crie um repositório público no GitHub.
-- Inclua README.md, scripts, wordlists e /images com evidências.
-- No formulário de entrega da DIO, cole o link do repositório e uma breve descrição do que foi feito.
-
 Referências úteis
 - Kali Linux (site oficial)
 - Medusa (documentação)
 - DVWA — Damn Vulnerable Web Application
 - Nmap — manual
+
+5) Resultados e Aprendizados
+Durante este projeto, aprendi:
+
+✔ Como configurar redes internas no VirtualBox
+✔ Como identificar serviços vulneráveis com Nmap
+✔ Como o Medusa automatiza ataques massivos
+✔ Como bruteforce funciona na prática
+✔ Importância do hardening de sistemas
+✔ Como documentar ataques de forma profissional
 
 Licença / Observações finais
 Conteúdo de aprendizado; adapte wordlists e scripts para seu laboratório. Não use contra sistemas de terceiros sem autorização.
