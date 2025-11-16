@@ -22,11 +22,11 @@ Descrever os testes realizados (FTP, SMB, Web/DVWA) em ambiente controlado para 
 4.1 Reconhecimento
 - Comando: nmap -sS -sV -O -Pn 192.168.56.101
 - Serviços descobertos: ftp(21), ssh(22), smb(445), http(80)
-- Observações: ...
+- Observações: Esse comando realiza um scan completo no alvo, identificando portas abertas, versões dos serviços e o sistema operacional, usando um método stealth e ignorando bloqueios de ping
 
 4.2 FTP — Força bruta (Medusa)
 - Comando utilizado:
-  medusa -h 192.168.56.101 -u msfadmin -P wordlists/common-passwords.txt -M ftp
+  medusa -h 192.168.56.101 -u msfadmin -P wordlists/common-passwords.txt -M ftp -t 6
 - Resultado: (copiar saída relevante)
 - Evidência: imagens/ftp-success.png
 - Impacto: acesso FTP não autorizado.
