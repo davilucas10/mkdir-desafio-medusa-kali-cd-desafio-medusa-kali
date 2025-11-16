@@ -68,12 +68,12 @@ Referências úteis
 5) Resultados e Aprendizados
 Durante este projeto, aprendi:
 
-✔ Como configurar redes internas no VirtualBox
-✔ Como identificar serviços vulneráveis com Nmap
-✔ Como o Medusa automatiza ataques massivos
-✔ Como bruteforce funciona na prática
-✔ Importância do hardening de sistemas
-✔ Como documentar ataques de forma profissional
+- Como configurar redes internas no VirtualBox
+- Como identificar serviços vulneráveis com Nmap
+- Como o Medusa automatiza ataques massivos
+- Como bruteforce funciona na prática
+- Importância do hardening de sistemas
+- Como documentar ataques de forma profissional
 
 Licença / Observações finais
 Conteúdo de aprendizado; adapte wordlists e scripts para seu laboratório. Não use contra sistemas de terceiros sem autorização.
